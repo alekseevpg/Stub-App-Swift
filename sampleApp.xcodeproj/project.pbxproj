@@ -17,6 +17,7 @@
 		32CB706F437872C42D00BB63 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB7C7F20A8FC8057D39707 /* UIColorExtensions.swift */; };
 		32CB7263A5BD7EA89E471B03 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB708CD083F21F54E16D4E /* DIContainer.swift */; };
 		32CB757B21D262ECBC490DA5 /* UILabelReactiveExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB7E23664702CB92BF56E1 /* UILabelReactiveExtensions.swift */; };
+		32CB762448C15E80D2BD031D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB73AD43FAD4FE96ABC37B /* MainViewController.swift */; };
 		FA00132CC89CEAA929847F06 /* Pods_sampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CB53103FF79AD83D470B98 /* Pods_sampleApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		0081CF7C1F4CAEC100FB75E3 /* sampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAppTests.swift; sourceTree = "<group>"; };
 		0081CF7E1F4CAEC100FB75E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32CB708CD083F21F54E16D4E /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		32CB73AD43FAD4FE96ABC37B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		32CB7C7F20A8FC8057D39707 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		32CB7E23664702CB92BF56E1 /* UILabelReactiveExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelReactiveExtensions.swift; sourceTree = "<group>"; };
 		512E7743381ED35ACF56D5A9 /* Pods-sampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sampleAppTests/Pods-sampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		32CB7789AC7276B9F1A15F0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				32CB73AD43FAD4FE96ABC37B /* MainViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,7 +255,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0081CF5F1F4CAEC100FB75E3 /* Build configuration list for PBXProject "SampleApp" */;
+			buildConfigurationList = 0081CF5F1F4CAEC100FB75E3 /* Build configuration list for PBXProject "sampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -419,6 +422,7 @@
 				32CB706F437872C42D00BB63 /* UIColorExtensions.swift in Sources */,
 				32CB757B21D262ECBC490DA5 /* UILabelReactiveExtensions.swift in Sources */,
 				32CB7263A5BD7EA89E471B03 /* DIContainer.swift in Sources */,
+				32CB762448C15E80D2BD031D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,7 +622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0081CF5F1F4CAEC100FB75E3 /* Build configuration list for PBXProject "SampleApp" */ = {
+		0081CF5F1F4CAEC100FB75E3 /* Build configuration list for PBXProject "sampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0081CF7F1F4CAEC100FB75E3 /* Debug */,
